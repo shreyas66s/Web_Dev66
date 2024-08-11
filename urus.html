@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAMBORGHINI</title>
+  <link rel="stylesheet" href="urus.css">
+  <script src="urus.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#welcome">MENU</a></li>
+        <li><a href="#models">MODELS</a></li>
+        <li><a href="#compare">COMPARE</a></li>
+        <li><a href="#country">COUNTRY</a></li>
+        <li><a href="#accessories">ACCESSORIES</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <h1>LAMBORGHINI URUS</h1>
+      <p>Lamborghini Urus is the first Super Sport Utility Vehicle in the world, merging the soul of a super sports car with the practical functionality of an SUV. Powered by Lamborghini’s 4.0-liter twin turbo V8 engine and, in the case of Urus SE, a powerful electric motor, the Urus embodies a performance mindset that combines Fun-to-Drive with astounding vehicle capabilities. The design, performance, driving dynamics, and unbridled emotion flow effortlessly into this visionary realization of authentic Lamborghini DNA, revolutionizing an entire segment.</p>
+      <a href="https://www.lamborghini.com/en-en/models/urus" class="button">Explore the URUS</a>
+    </section>
+    
+    <section class="features" id="models">
+      <h2>Key Specifications of Lamborghini Urus</h2>
+      <table>
+        <tr>
+          <th>Engine Displacement (cc)</th>
+          <th>Max Power (bhp@rpm)</th>
+          <th>Max Torque (nm@rpm)</th>
+          <th>No. of cylinders</th>
+          <th>Boot Space (Litres)</th>
+          <th>Fuel Tank Capacity</th>
+          <th>Body Type</th>
+        </tr>
+        <tr>
+          <td>3996cc</td>
+          <td>657.10bhp@6000rpm</td>
+          <td>850Nm@2250-4500rpm</td>
+          <td>8</td>
+          <td>616</td>
+          <td>75</td>
+          <td>SUV</td>
+        </tr>
+      </table>
+    </section>
+    
+    <section class="reviews" id="compare">
+      <h2>Design</h2>
+      <blockquote>
+        A declaration of freedom, Urus enables you to discover any terrain, from track to sand, ice, gravel or rocks. It is the absolute all-round super sports car and more. It allows you to explore new paths and new ways to express yourself—to accept challenges confidently and to live life to the fullest. You are not afraid to go far: this is what you aspire to. Unlock any road, unlock your personality."<br>
+       
+        <!-- <cite>Nannapaneni Geethakarishna, India</cite>
+      </blockquote>
+      <blockquote>
+        "Great comfort. This car gives you luxury and sports experience. I recommend it to all rich buddies. If you can afford it, this car won't disappoint you."<br>
+        <cite>Kush, California</cite>
+      </blockquote>
+    </section>-->
+    
+    <section class="video">
+      <iframe width="1100" height="500" src="https://www.youtube.com/embed/36EErA2djKc" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </section>
+    
+  <!--  <section class="audio">
+      <h2>Audio</h2>
+      <audio src="lambo.mp3" controls></audio>
+    </section> -->
+    
+    <section class="contact" id="country">
+      <h2>Proceed to Buy</h2>
+      <form onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <span class="error" id="emailError"></span>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <span class="error" id="phoneError"></span>
+        
+        <label for="dob">Date of Birth:</label>
+<input type="date" id="dob" name="dob" required class="date-input">
+
+        
+<label for="interested-model">Interested Model(s):</label>
+<select id="interested-model" name="interested-model" required>
+  <option value="urus">Urus</option>
+  <option value="aventador">Aventador</option>
+  <option value="huracan">Huracán</option>
+  <option value="revuelto">Revuelto</option>
+</select>
+
+<label for="test-drive">Would you like to schedule a test drive?</label>
+<select id="test-drive" name="test-drive" required>
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+</select>
+
+
+        <label for="interest-category">Interest Category:</label>
+<select id="interest-category" name="interest-category">
+  <option value="product-inquiry">Product Inquiry</option>
+  <option value="customization">Customization</option>
+  <option value="investment">Investment</option>
+</select>
+        
+        
+<label for="mailing-options">Preferred Mailing Options:</label>
+<select id="mailing-options" name="mailing-options">
+  <option value="exclusive-offers">Exclusive Offers & Updates</option>
+  <option value="event-invitations">Invitations to VIP Events</option>
+  <option value="newsletters">Premium Newsletters</option>
+  <option value="important-announcements">Important Announcements Only</option>
+  <option value="all">All of the Above</option>
+</select>
+
+<label for="contact-method">Preferred Contact Method:</label>
+<select id="contact-method" name="contact-method" required>
+  <option value="phone">Phone</option>
+  <option value="email">Email</option>
+  <option value="in-person">In-Person Appointment</option>
+  <option value="video-call">Video Call</option>
+</select>
+
+
+<label for="current-vehicle">Current Vehicle Owned:</label>
+<input type="text" id="current-vehicle" name="current-vehicle" placeholder="e.g., Porsche 911, Audi R8" required>
+
+
+       <!-- <label for="radio">Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="others"> Others-->
+        
+        <label for="textarea">Questions:</label>
+        <textarea id="textarea" name="textarea"></textarea>
+        
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Website Owner Shreyas S | Email: shreyas1665@gmail.com</p>
+    <p>Credits: <a href="https://www.lamborghini.com/en-en" class="button">Lamborghini Official</a></p>
+    <p>Credits: <a href="https://youtu.be/36EErA2djKc?feature=shared" class="button">YouTube</a></p>
+  </footer>
+</body>
+</html>
