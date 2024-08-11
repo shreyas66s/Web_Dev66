@@ -32,6 +32,7 @@ This project is a sleek, responsive website showcasing the Lamborghini Urus, the
 1. Clone the repository or download the files.
 2. Ensure all files are in the same directory.
 3. Open `urus.html` in a web browser to view the website.
+![Screenshot 2024-08-11 100222](https://github.com/user-attachments/assets/b529c60e-b5f0-4776-b09d-f148d3606b6a)
 
 ## Usage
 
